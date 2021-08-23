@@ -1,14 +1,11 @@
 import "./App.css";
 
-import Todo from "./components/Todo/Todo";
+import Ingredients from "./components/Ingredients/Ingredients";
 
 function App() {
   return (
     <div>
-      <h1>My Todos</h1>
-      <Todo title="Learn React" />
-      <Todo title="Master React" />
-      <Todo title="Master React 2" />
+      <Ingredients />;
     </div>
   );
 }
